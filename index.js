@@ -1,7 +1,7 @@
 console.log("Passwords Generator!");
 
 // For use in other js apps
-function RandomGenerate(){
+passgen.RandomGenerate = function(){
 	const pass1 = Math.random();
 	console.log("Password: ", pass1);
 }
